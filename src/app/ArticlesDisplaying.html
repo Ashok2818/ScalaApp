@@ -1,0 +1,48 @@
+<html>
+<body>
+<wicket:panel>
+<form wicket:id="form">
+ <div wicket:id="wmc">
+ <center>
+        <table border="1" cellpadding="5">
+            <caption><h2>List of articles</h2></caption>
+            <thead>
+			<tr bgcolor="#FFB6C1">
+                <th>ID</th>
+                <th>Name</th>
+                <th>STORE</th>
+                <th>COLOR</th>
+                <th>update</th>
+                <th>Delete</th>
+                
+            </tr>
+			</thead>
+			<tbody wicket:id="body">
+			<tr bgcolor="powderblue">
+			<td><span wicket:id="id"></span></td>
+			<td><span wicket:id="name"></span></td>
+			<td><span wicket:id="store"></span></td>
+			<td><span wicket:id="color"></span></td>
+			<td><a wicket:id="update">update</a></td>
+			<td><a wicket:id="delete">Delete</a></td>
+			</tr>
+			</tbody>
+			<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a style="text-decoration:underline;" wicket:id="red">Add</a></td>
+			</tr>
+	</table>	
+	</center>
+	<div wicket:id="window"></div>
+	<div wicket:id="remove"></div>
+	<div wicket:id="window3"></div>
+</div>
+</form>
+
+</wicket:panel>
+</body>
+</html>

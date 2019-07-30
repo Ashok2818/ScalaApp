@@ -1,0 +1,89 @@
+<html>
+<head>
+<style>
+
+    .create {
+	
+	border-radius : 10px;
+    background    : #F8F8FF;
+    padding       : 20px; 
+    width         : 800px;
+    height        : 800px; 
+	 margin-top   : 150px;
+    margin-bottom : 250px;
+    margin-right  : 150px;
+    margin-left   : 420px;  
+		 
+		 }
+		 
+	.fieldset {
+	
+	  font-size :20px;
+	  width : 200px;
+	  height : 22px;
+	  margin-left :50px;
+	  font-family: Times New Roman, Times, serif;
+	 
+	  }	 
+		
+    .background {
+
+     	background-image:url(reg_background.png);
+		background-repeat: 
+		 
+</style>	
+</head>	 
+<body calss="background">
+<!-- <form  wicket:id="form"  method="post">
+<input wicket:id="F_name" type="text"   required />
+<h3> <span wicket:id="result" /> Note : please fill below registeration form </h3>
+</form> -->
+<form  wicket:id="register"  method="post">
+
+<div class="create">
+
+<h3> <i wicket:id="result"> Note : please fill below registeration form </i></h3>
+
+<span class="fieldset">
+
+<center>
+
+ <i>   Full Name    : <input wicket:id="F_name" type="text"    /><br><br><br>
+                      <div style="color:red;" wicket:id="NameFeedbackerror"></div>	
+	
+	   Store name    : <input wicket:id="store" type="text"   /> <br><br><br>
+                      <div style="color:red;" wicket:id="storeFeedbackerror"></div>
+                      
+	   country       : <input wicket:id="country" type="text"   /> <br><br><br>
+	                  <div style="color:red;" wicket:id="countryFeedbackerror"></div>
+	                  
+	   city          : <input wicket:id="city" type="text"   /> <br><br><br>
+	                  <div style="color:red;" wicket:id="cityFeedbackerror"></div>
+	                  
+	   Area          : <input wicket:id="area" type="text"    /> <br><br><br>
+	                   <div style="color:red;" wicket:id="AreaFeedbackerror"></div>
+	                   
+	   email         : <input wicket:id="email" type="text"    /><br><br><br>
+	                  <div style="color:red;" wicket:id="emailFeedbackerror"></div>
+	
+	   create user name : <input wicket:id="User_name"   /> <br><br><br>
+	                 <div style="color:red;" wicket:id="userFeedbackerror"></div>
+	 
+	   create password  : <input wicket:id="User_password"   /> <br><br><br>
+	                   <div style="color:red;" wicket:id="passwordFeedbackerror"></div>
+	  
+	   employee id      : <input wicket:id="emp_id" type="text"  /><br><br><br>
+	                   <div style="color:red;" wicket:id="idFeedbackerror"></div>
+	 
+	</i>
+	
+	   <input type="submit" value="Login" />
+	
+</center>	
+ 
+ </span>
+ </div>
+ 
+ </form>
+ </body>
+ </html>

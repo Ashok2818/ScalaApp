@@ -1,0 +1,29 @@
+<html>
+<head>
+<style>
+.color{
+ background-color:green
+}
+</style>
+</head>
+<body class="color">
+<wicket:panel>
+<form wicket:id="Adding">
+<center>
+
+<pre><b> Article id    :   <input style="margin-top:50px;"  wicket:id="myTextField" pattern="[0-9]{4}" title="enter only 4 digits"/></b></pre><br>
+<div wicket:id="idFeedback"></div>
+<pre><b> Article Name  :   <input wicket:id="name" type="text" name="Article_Name"/></b></pre><br>
+<div wicket:id="nameFeedback"></div>
+<pre><b> Store Name    :   <input wicket:id="store" type="text" name="Store_Name" /></b></pre><br>
+<div wicket:id="storeFeedback"></div>
+<pre><b> Color         :   <input wicket:id="color" type="text" name="color"/></b></pre><br>
+<div wicket:id="colorFeedback"></div>
+
+<input type="button" wicket:id="search" value="submit"/>
+<!-- <pre><a style="text-decoration:none;" wicket:id="yes">submit</a>    <a style="text-decoration:none;" wicket:id="no">cancel</a></pre> -->
+</center>
+</form>
+</wicket:panel>
+</body>
+</html>

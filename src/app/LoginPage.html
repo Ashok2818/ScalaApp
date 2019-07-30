@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Wicket Hello World</title>
+<style>
+.kk {
+	border-radius: 10px;
+	background: #D8BFD8;
+	padding: 20px;
+	width: 400px;
+	height: 300px;
+	margin-top: 150px;
+	margin-bottom: 250px;
+	margin-right: 150px;
+	margin-left: 620px;
+}
+
+.field {
+	font-size: 22px;
+	width: 200px;
+	height: 22px;
+}
+</style>
+</head>
+<body>
+
+	<form wicket:id="form">
+				<center>
+					<pre> <b>	<div>username :<input wicket:id="user"type="text" name="end"><br></div></b></pre>
+					<div wicket:id="userfeedback"></div>
+			        <pre><div><b>password :<input wicket:id="pass" type="password"></b><br><br></div></pre>
+			        <div wicket:id="passfeedback"></div>
+	    <input type="submit" value="Login" />
+					<pre> <a wicket:id="register" href="Register.html" target="_blank">create account</a> <a wicket:id="forgot" style="margin-left: 2" href="forgot_pass.html" target="_blank">forgot password</a>
+				</pre>
+				</center>
+	</form>
+</body>
+</html>
