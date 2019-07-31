@@ -29,7 +29,7 @@
 		<source.version>1.6</source.version>
 		
 		<wicket.version>1.5.8</wicket.version>
-		<jetty.version>8.1.7.v20120910</jetty.version>
+		<jetty.version>9.4.19.v20190610</jetty.version>
 		<slf4j.version>1.7.1</slf4j.version>
 		<log4j.version>1.2.17</log4j.version>
 		<hibernate-core-version>4.1.7.Final</hibernate-core-version>
